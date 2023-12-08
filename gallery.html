@@ -4,11 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <style>
+      ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello</h1>
     <ul class="gallery"></ul>
-
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
+    ></script>
     <script type="module" src="/gallery.js"></script>
   </body>
 </html>
