@@ -95,5 +95,4 @@ ul.addEventListener("click", (event) => {
   });
 
   modal.show();
-
 });
